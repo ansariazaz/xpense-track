@@ -1,0 +1,14 @@
+.modal-inner{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.img-cont{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+

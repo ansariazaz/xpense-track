@@ -1,0 +1,75 @@
+.topfold{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.icon{
+    width: 30px;
+}
+.icon>img{
+    width: 24px;
+    margin-left: 10px;
+}
+.left-top{
+   max-width: 600px;
+   width: 100%;
+}
+.right-top{
+  max-width: 100px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 6px;
+   
+}
+.search>input{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.add{
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    background-color: rgb(191, 216, 212);
+    font-size: 20px;
+    width: 100px;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+a{
+    text-decoration: none !important;
+}
+.add:hover{
+    background-color: rgb(172, 204, 172);  
+}
+.add>img{
+    width: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+    
+}
+.add-topfold{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.btn{
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px; 
+    cursor: pointer;
+    font-size: 18px;
+}

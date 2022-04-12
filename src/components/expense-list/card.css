@@ -1,0 +1,49 @@
+.card{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    font-size: 24px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6d7de;
+    border-radius: 22px;
+    background: #e6d7de;
+    box-shadow:  22px 22px 45px #ada1a7,
+             -22px -22px 45px #ffffff;
+}
+.left{
+   padding: 20px;
+   
+}
+h3{
+    display: inline;
+}
+.right{
+    padding: 20px;
+ }
+ .title,.time,.amount{
+     margin: 0;
+     padding: 0;
+ }
+ .time{
+     margin-top: 6px;
+     font-size: 18px;
+     color: gray;
+ }
+ .delete-btn{
+    background-color: rgb(226, 122, 108);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+ }
+ .delete-btn:hover{
+    background-color: rgb(240, 97, 78); 
+ }
+ .margin{
+     margin-left: 10px;
+ }
